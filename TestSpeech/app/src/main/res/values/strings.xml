@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestSpeech</string>
+    <string name="speech_prompt">Say something</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+</resources>
