@@ -9,7 +9,7 @@ This repository is a Unity plugin for Android Speech Recognition (based on Java 
 
 ## Usage
 
-* You can first test out the `SpeechRecognition.apk` from [here](https://github.com/gsssrao/UnityAndroidSpeechRecognition/releases/download/2.0/SpeechPlugin.apk). You need a minimum of Android Lollipop (API Level 21) to use this apk.
+* You can first test out the `SpeechRecognition.apk` from [here](https://github.com/gsssrao/UnityAndroidSpeechRecognition/releases/download/2.1/SpeechPlugin.apk). You need a minimum of Android Lollipop (API Level 21) to use this apk.
 * Next, import `SpeechRecognition.unitypackage` into your Unity project. (Tested latest on `Unity 2018.1.0f2`)
 * To include SpeechReconginition in your own project copy the contents of `Plugins/Android/` into the same folder in your project and have a look at `Test.cs` and `ReceiveResult.cs` for an example usage. `Test.cs` has function for calling the speech recognition popoup whereas `ReceiveResult.cs` has function which receives the recognized text.
 * When you press the button, a speech recognition itent should pop up. This intent sends the recognized text to 'void onActivityResult(string recognizedText)' function of the object 'Main Camera' (You can change the object to which `ReceiveResult.cs` should be attached by changing the object name in `Test.cs`. The default return object is set to 'Main Camera').
@@ -28,4 +28,4 @@ This repository is a Unity plugin for Android Speech Recognition (based on Java 
 
 * On experiencing a problem, feel free to create an issue.
 
-* If you want any additional features too feel free to create an issue.
+* If you want any additional features too, feel free to create an issue.
